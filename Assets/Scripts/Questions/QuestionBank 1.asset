@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05a3f750196f1214d8bffb61eefd60ab, type: 3}
+  m_Name: QuestionBank 1
+  m_EditorClassIdentifier: 
+  Questions:
+  - QuestionName: This Game Made With?
+    Answer: Unity
+    AnswerOptions:
+    - Unreal
+    - Unity
+    - AppGameKit
+    - Godot
+    Image: {fileID: 0}
+    HasImage: 0
+    CorrectColor: {r: 0, g: 0, b: 0, a: 0}
+  - QuestionName: How many sides are on a cube?
+    Answer: Six
+    AnswerOptions:
+    - One
+    - Two
+    - Ten
+    - Six
+    Image: {fileID: 0}
+    HasImage: 0
+    CorrectColor: {r: 0, g: 0, b: 0, a: 0}
+  - QuestionName: What is the Image Color?
+    Answer: Red
+    AnswerOptions:
+    - White
+    - Green
+    - Red
+    - Bllue
+    Image: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    HasImage: 1
+    CorrectColor: {r: 1, g: 0, b: 0, a: 1}
